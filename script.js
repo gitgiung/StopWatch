@@ -31,9 +31,8 @@ buttonReset.onclick = function(){
 }
 
 var restMessage = document.querySelector('h4'); // <h4> 엘리먼트 선택 
-restMessage.style.display = 'none' // <h4> 숨기기
+restMessage.style.display = 'none' // 휴식 멘트 숨기기
 
-// 10ms 마다 시간에 대한 숫자가 증가한다!
 function operateTimer(){
   tenMillis++;
   appendTens.textContent = tenMillis > 9 ? tenMillis : '0' + tenMillis
@@ -51,7 +50,7 @@ function operateTimer(){
     appendSeconds.textContent = "00"    
   }
 
-  if (minutes === 50) { restMessage.style.display = 'block'; } // <h4> 나타내기
+  if (minutes === 50) { restMessage.style.display = 'block'; } // 휴식 멘트 나타내기
 
   if (minutes > 59) {
     hours++;
