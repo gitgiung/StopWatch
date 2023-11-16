@@ -44,7 +44,7 @@ h4 {
   font-size: 30px;
 }
 
-h1 > span {
+h1 span {
   display: inline-block;
   width: 40px;
 }

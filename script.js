@@ -31,7 +31,7 @@ buttonReset.onclick = function(){
 }
 
 var restMessage = document.querySelector('h4'); // <h4> 엘리먼트 선택 
-restMessage.style.display = 'none' // 휴식 멘트 숨기기
+restMessage.style.display = 'none' // 휴식 메세지 숨기기
 
 function operateTimer(){
   tenMillis++;
@@ -50,7 +50,7 @@ function operateTimer(){
     appendSeconds.textContent = "00"    
   }
 
-  if (minutes === 50) { restMessage.style.display = 'block'; } // 휴식 멘트 나타내기
+  if (minutes === 50) { restMessage.style.display = 'block'; } // 휴식 메세지 나타내기
 
   if (minutes > 59) {
     hours++;
