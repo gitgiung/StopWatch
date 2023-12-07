@@ -6,7 +6,7 @@
 
 html, body {
   margin: 0;
-  background-color: violet;
+  background-color: skyblue;
 }
 
 .container {
@@ -16,16 +16,16 @@ html, body {
   margin: 10px auto;
   padding: 5px 0 15px;
   text-align: center;
-  border: 8px solid black;
+  border: 8px solid white;
   border-radius: 16px;
 }
 
 h2 {
-  color: Black;
+  color: white;
 }
 
 h1 {
-  color: Black;
+  color: white;
 }
 
 h3 {
