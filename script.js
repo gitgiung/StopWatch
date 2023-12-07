@@ -30,7 +30,7 @@ buttonReset.onclick = function(){
   appendHours.textContent = "00"
 }
 
-var restMessage = document.querySelector('h4'); // <h4> 엘리먼트 선택 
+var restMessage = document.querySelector('h4'); // <h4> 요소 선택 
 restMessage.style.display = 'none' // 휴식 메세지 숨기기
 
 function operateTimer(){
