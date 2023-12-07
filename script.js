@@ -52,7 +52,7 @@ function operateTimer(){
 
   if (minutes === 50) { restMessage.style.display = 'block'; } // 휴식 메세지 나타내기
 
-  if (minutes > 59) {
+  if (minutes > 59) { // 1시간 증가
     hours++;
     restMessage.style.display = 'none';
     appendHours.textContent = hours > 9 ? hours : '0' + hours
