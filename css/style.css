@@ -16,16 +16,16 @@ html, body {
   margin: 10px auto;
   padding: 5px 0 15px;
   text-align: center;
-  border: 8px solid white;
+  border: 8px solid black;
   border-radius: 16px;
 }
 
 h2 {
-  color: white;
+  color: Black;
 }
 
 h1 {
-  color: black;
+  color: Black;
 }
 
 h3 {
